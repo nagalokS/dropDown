@@ -1,0 +1,26 @@
+.main {
+  // min-width: 20rem;
+  // max-width: 25rem;
+  width: 400px;
+  cursor: pointer;
+  z-index: 2;
+}
+.small {
+  color: #333333;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  text-align: left;
+  margin: 0 0 0.25rem 0;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: transparent;
+  z-index: -1;
+  cursor: auto;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 0 1rem;
+  position: relative;
+  &:focus-within {
+    &::before {
+      display: none;
+    }
+  }
+  &::before {
+    content: url(../../assets/search.svg);
+    position: absolute;
+    top: 0.8125rem;
+    left: 1.75rem;
+  }
+}
+.input {
+  background: #f4f4f4;
+  width: 100%;
+  border: 0.0625rem solid transparent;
+  border-radius: 0.625rem;
+  padding: 0.625rem 2.125rem;
+
+  &::placeholder {
+    color: #c1c1c1;
+  }
+}
