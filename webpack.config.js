@@ -64,7 +64,8 @@ module.exports = {
     ],
   },
   devServer: {
-    /*port:8080 */
+    port: 8080,
+    host: "192.168.10.4",
     contentBase: "./build",
     open: true,
   },
